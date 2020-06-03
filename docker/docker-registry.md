@@ -8,6 +8,8 @@ Docker hub등과 같은 public registry에서는 공개적으로 image를 공유
 
 아래에서는 private registry를 생성하는 방법에 대해 다루려고 한다.
 
+
+
 ## Docker registry 설치 
 
 도커가 설치되었다고 가정하면, docker pull 명령어로 docker registry image를 받는다.
