@@ -10,7 +10,7 @@ Docker hub등과 같은 public registry에서는 공개적으로 image를 공유
 
 
 
-## Docker registry 설치 
+### Docker registry 설치 
 
 도커가 설치되었다고 가정하면, docker pull 명령어로 docker registry image를 받는다.
 
@@ -18,7 +18,7 @@ Docker hub등과 같은 public registry에서는 공개적으로 image를 공유
 $ docker pull registry:latest
 ~~~
 
-## Docker registry 실행
+### Docker registry 실행
 
 도커 레지스트리 이미지가 설치되었다면, container를 detached mode로 생성합니다.
 
@@ -32,7 +32,7 @@ $ docker run --name registry-private -d -p 5000:5000 registry
 $ curl "http://0.0.0.0:5000"
 ~~~
 
-## Docker image 생성
+### Docker image 생성
 
 private registry에 저장하고자 하는 docker image를 생성해줍니다.
 
@@ -62,7 +62,7 @@ $ docker build -t image_name:image_tag
 
 를 입력해줍니다.
 
-## Docker registry에 저장
+### Docker registry에 저장
 
 이미지가 정상적으로 생성되었다면 docker registry에 push 해주어야 합니다.
 
