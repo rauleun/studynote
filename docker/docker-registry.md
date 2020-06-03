@@ -36,31 +36,28 @@ $ curl "http://0.0.0.0:5000"
 
 private registry에 저장하고자 하는 docker image를 생성해줍니다.
 
-이미 존재하는 컨테이너를 이미지화 하려면
+이미 존재하는 컨테이너를 이미지화 하려면 아래 코드를,
 
 ~~~
 $ docker commit container_name image_name:image_tag
 ~~~
 
-tar 형식으로 저장된 이미지를 올려주려면
+tar 형식으로 저장된 이미지를 올려주려면 아래 코드 중 하나를, 
 
 ~~~
 $ docker load -i xxx.tar
 ~~~
 
-또는
-
 ~~~
 $ docker import xxx.tar image_name:image_tag
 ~~~
 
-Dockerfile에서 이미지를 빌드하려면 dockerfile이 저장된 경로로 이동하여
+Dockerfile에서 이미지를 빌드하려면 dockerfile이 저장된 경로로 이동하여 아래 코드를 입력해줍니다.
 
 ~~~
 $ docker build -t image_name:image_tag
 ~~~
 
-를 입력해줍니다.
 
 ### Docker registry에 저장
 
