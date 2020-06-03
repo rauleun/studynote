@@ -1,8 +1,8 @@
 # Docker registry
 
-Docker build 를 통해서 생성한 image를 공유하기 위한 저장소이다.
+Docker build 를 통해서 생성한 image를 공유하기 위한 저장소이다.  
 
-Docker hub등과 같은 public registry에서는 공개적으로 image를 공유할 수 있고, 
+Docker hub등과 같은 public registry에서는 공개적으로 image를 공유할 수 있고,   
 
 사내에서만 공유하고 싶은 경우 등에는 private registry를 생성해 image를 공유할 수 있다.
 
