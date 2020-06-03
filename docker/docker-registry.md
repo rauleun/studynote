@@ -12,6 +12,6 @@ Docker hub등과 같은 public registry에서는 공개적으로 image를 공유
 
 도커가 설치되었다고 가정하면, docker pull 명령어로 docker registry image를 받는다.
 
-''' 
+'''
 $ docker pull registry:latest
 '''
