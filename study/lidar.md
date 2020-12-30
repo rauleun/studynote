@@ -1,6 +1,6 @@
-* LiDAR
+*LiDAR*
 
-*** LAS file format
+*** LAS file format***
 
 현업에서 가장 보편적으로 활용되는 LiDAR data format으로, lidar point cloud data를 저장하기 위해 고안되었다.
 
@@ -9,7 +9,7 @@ Public header block, Variable length records, Point data records, Extended varia
 그 중 Point data records는 각 point에 대한 좌표값이나 클래스 정보 등을 저장하고 있다. 
 
 
-*** Principle
+***Principle***
 
 - Time of Flight (TOF)
 

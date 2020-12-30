@@ -1,6 +1,6 @@
-* RGBD 
+*RGBD* 
 
-*** Segmentation
+***Segmentation***
 
 1. Additional to RGB image, depth channel can be treated as a channel for the input.
 
@@ -10,7 +10,7 @@
 
 
 
-*** Kinect camera
+***Kinect camera****
 
 Microsoft에서 처음 개발된 kinect camera는 원래 Xbox360의 인터페이스 장비인데, depth와 skeleton 정보를 쉽게 얻을 수 있어서 많은 주목을 받았다.
 
@@ -25,7 +25,7 @@ RGBD camera의 output은 RGB color image와 depth image의 두 가지로 존재�
 보통 게임과 연동되어서 많이 사용한다. (XBOX360 및 Nintendo Wii 등에서 사용자의 동작을 인식하는 게임에 활용)
 
 
-*** ZED stereo camera
+***ZED stereo camera***
 
 Steroe LABS에서 개발한 3D sensing camera.
 
@@ -34,7 +34,7 @@ Steroe LABS에서 개발한 3D sensing camera.
 Kinect camera와 유사하게 RGB color image에 depth image를 같이 제공한다.
 
 
-** Dataset 
+***Dataset***
 
 - Yonsei Univ CVLAB에서 제공하는 RGB+D Dataset
 
